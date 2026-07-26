@@ -1,7 +1,26 @@
 aid: desaisiv-inc
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/desaisiv-inc.png
 name: Desaisiv Inc.
-description: Desaisiv Inc. is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  DESAISIV is a corporate InsurTech platform focused on health insurance in Saudi Arabia and the
+  wider MENA region. Founded in 2022, the company builds AI and automation products for insurers and
+  third-party administrators (TPAs), including smart underwriting automation, a real-time quotation
+  engine, OCR-powered claims intelligence, a corporates insurance marketplace, and SME portals. Its
+  platform bridges data, systems, insurers, and corporates to streamline underwriting, quoting, and
+  claims. DESAISIV is backed by 500 Global, Terra VC, Oqal, and other MENA/UK/US investors via a
+  US$2M pre-seed round. This profile is maintained in the API Evangelist network; the company does
+  not currently publish a public developer portal or API.
 url: https://raw.githubusercontent.com/api-evangelist/desaisiv-inc/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- InsurTech
+- Insurance
+- Health Insurance
+- Underwriting
+- Claims Automation
+- Artificial Intelligence
+- Saudi Arabia
+- MENA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,14 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/desaisiv-inc-domain-security.yml
+- type: Blog
+  url: https://desaisiv.com/#news
 - type: Website
   url: https://desaisiv.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
